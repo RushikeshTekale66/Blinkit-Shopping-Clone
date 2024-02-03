@@ -1,0 +1,202 @@
+.locationbox>h5 {
+    color: black;
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.locationbox>p {
+    margin: 0px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.search-div {
+    padding: 0px 12px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    color: gray;
+    height: 45px;
+}
+
+.search-div>input {
+    border: none;
+    width: 45vw;
+    text-align: center;
+    justify-content: center;
+
+}
+
+::placeholder{
+    font-size: 14px;
+    color: gray;
+}
+
+.my-catogories, .category-section{
+    width: 90%;
+    margin: auto;
+}
+
+.my-container{
+    width: 100%;
+    overflow-x: auto;
+    margin:auto;
+}
+
+.my-list{
+    white-space: nowrap;
+}
+
+.my-list>img{
+    padding-inline: 10px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.my-card{
+    width:180px;
+}
+
+.my-card-time{
+    width: fit-content;
+    border-radius: 4px;
+    /* background-color: aliceblue; */
+    padding: 0px 4px;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54,54,54);
+}
+
+.my-card-title{
+    color:rgb(31,31,31);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.my-card-weight{
+    color: rgb(54,54,54);
+    font-size: 13px;
+}
+
+.card-price{
+    color: rgb(31,31,31);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.mrp{
+    color:#666666;
+    font-size: 12px;
+    margin-bottom: -10px;
+}
+
+.category-section{
+    width: 80%;
+    margin:auto;
+    
+}
+
+.category-section-row{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.row-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.useful-link{
+    flex:2;
+}
+
+.categories-link{
+    flex: 3;
+}
+
+td{
+    color:#666666;
+    padding: 3px 10px;
+    font-size: 14px;
+}
+
+table{
+    width: 100%;
+    margin: 10px;
+}
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.row-2>p{
+    text-align: justify;
+    width: 30%;
+    font-size: 11px;
+}
+
+.download-but{
+    background-color: rgb(17, 5, 5);
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 10px;
+    border: none;
+}
+
+.download-section>p{
+    font-weight: 600;
+    font-size: 24px;
+    margin: 16px;
+}
+
+.row-3{
+    text-align: justify;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.social-but{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    margin-inline: 10px;
+}
+
+.social{
+    display: flex;
+
+}
+
+@media screen and (max-width:760px){
+    nav, .row-2, .row-1{
+        flex-direction: column !important;
+    }
+    .hero-section>img{
+        display: none !important;
+    }
+    .row-2>p, .nav-btn{
+        width: 90%;
+    }
+    .row-1>div>h2, .row-1>div>h4{
+        text-align: center;
+    }
+    td{
+        text-align: center;
+    }
+    .social, .my-container{
+        margin-top: 10px;
+    }
+}
